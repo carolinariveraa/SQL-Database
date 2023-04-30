@@ -18,6 +18,8 @@ Se parte de las siguientes tablas
 En la carpeta notebook se encuentra el archivo main.ipynb que contiene los pasos seguidos para la limpieza y reestructuración de la base de datos además de la inserción en SQL.
 El archivo creation_db.sql es la creación de la base de datos y querys.sql son las consultas.
 
+En la carpeta pics se encuentra el resultado de las querys lanzadas y el diagrama ER de las relaciones entre las tablas.
+
 ## 3. Metodologia
 
 Se comienza con una exploración inicial de las tablas y se llegan a las siguiente conclusiones
