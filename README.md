@@ -58,6 +58,12 @@ Después de la reestructuración de la base de datos y la creación de relacione
 
 3. PELICULAS MÁS CARAS 
 
-
+![query3](pics\query3.png)
 
 4. STOCK DE ESAS PELICULAS
+
+![query4](pics\query4.png)
+
+6. # Conclusión
+
+Este proyecto ha servido para asegurar una gestión adecuada de la información de la empresa de alquiler de películas. La estructuración de las tablas y la creación de relaciones entre ellas han permitido una mejor organización de los datos y una mayor eficiencia en la gestión de la información.
