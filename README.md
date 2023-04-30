@@ -40,9 +40,24 @@ Después de haber reestructurado la base de datos y establecido las relaciones e
 
 ## 4. Base de datos final
 
-Después de la reestructuración de la base de datos y la creación de relaciones entre tablas, se obtiene el siguiente resultado.
+Después de la reestructuración de la base de datos y la creación de relaciones entre tablas, se obtiene el siguiente resultado:
 
+![diagrama](pics\diagrama_eer.png)
 
 
 
 ## 5. Consultas
+
+1. TRES PELICULAS DE LAS QUE MÁS INVENTARIO HAY
+
+![query1](pics\query1.png)
+
+2. 3 PELICULAs MÁS ALQUILADAS
+
+![query2](pics\query2.png)
+
+3. PELICULAS MÁS CARAS 
+
+
+
+4. STOCK DE ESAS PELICULAS
