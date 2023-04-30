@@ -54,7 +54,7 @@ Después de la reestructuración de la base de datos y la creación de relacione
 
 ![query1](./pics/query1.png)
 
-2. 3 PELICULAs MÁS ALQUILADAS
+2. TRES PELICULAS MÁS ALQUILADAS
 
 ![query2](./pics/query2.png)
 
@@ -66,6 +66,6 @@ Después de la reestructuración de la base de datos y la creación de relacione
 
 ![query4](./pics/query4.png)
 
-6. # Conclusión
+# 6. Conclusión
 
 Este proyecto ha servido para asegurar una gestión adecuada de la información de la empresa de alquiler de películas. La estructuración de las tablas y la creación de relaciones entre ellas han permitido una mejor organización de los datos y una mayor eficiencia en la gestión de la información.
