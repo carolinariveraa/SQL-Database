@@ -1,5 +1,7 @@
 # SQL-Database
 
+![sql](./pics/sql.png)
+
 ## 1. Descripción del problema
 Un cliente quiere abrir de nuevo blockbuster y para ello parte de la base de datos antigua cuya ultima actualización fue en 2006. 
 El objetivo consiste en limpiar esas tablas de la base de datos para exportarla a SQL y optimizar su funcionamiento así como hacerla operativa a través de las relaciones entre tablas.
@@ -42,7 +44,7 @@ Después de haber reestructurado la base de datos y establecido las relaciones e
 
 Después de la reestructuración de la base de datos y la creación de relaciones entre tablas, se obtiene el siguiente resultado:
 
-![diagrama](pics\diagrama_eer.png)
+![diagrama](./pics/diagrama_eer.png)
 
 
 
@@ -50,19 +52,19 @@ Después de la reestructuración de la base de datos y la creación de relacione
 
 1. TRES PELICULAS DE LAS QUE MÁS INVENTARIO HAY
 
-![query1](pics\query1.png)
+![query1](./pics/query1.png)
 
 2. 3 PELICULAs MÁS ALQUILADAS
 
-![query2](pics\query2.png)
+![query2](./pics/query2.png)
 
 3. PELICULAS MÁS CARAS 
 
-![query3](pics\query3.png)
+![query3](./pics/query3.png)
 
 4. STOCK DE ESAS PELICULAS
 
-![query4](pics\query4.png)
+![query4](./pics/query4.png)
 
 6. # Conclusión
 
