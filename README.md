@@ -28,16 +28,20 @@ Se comienza con una exploración inicial de las tablas y se llegan a las siguien
 - En la tabla inventory solamente hay 223 peliculas de las 1000 que aarecen en la tabla films
 - En la tabla rental la columna de inventory_id contiene más valores de los que hay en inventory
 
-## 4. Cambios
+## 4. Propuesta de valor
 
-Toma de decisiones:
-1. eliminar las filas de rental cuyo inventory_id no corresponde a ninguno de la tabla inventory
-2. reestructurar inventory para que aparezca la pelicula, la cantidad en stock y su localización
-3. eliminar tabla language y ponerlo como columna en tabla film
-4. crear tabla para el customer con datos de los clientes 
-5. eliminar tabla category y meterlo como columna en film
+Después de haber reestructurado la base de datos y establecido las relaciones entre las tablas, se han identificado algunas acciones que se deben realizar para mejorar el funcionamiento del sistema. Estas son:
+
+1. Eliminar las filas de la tabla "rental" cuyo "inventory_id" no corresponde a ninguno de los registros en la tabla "inventory".
+2. Reestructurar la tabla "inventory" para incluir información detallada sobre la película, la cantidad de stock disponible y su ubicación.
+3. Eliminar la tabla "language" y agregar su información como columna en la tabla "film".
+4. Crear una nueva tabla para almacenar información de los clientes.
+5. Eliminar la tabla "category" e incorporar su información como columna en la tabla "film".
 
 ## 4. Base de datos final
+
+Después de la reestructuración de la base de datos y la creación de relaciones entre tablas, se obtiene el siguiente resultado.
+
 
 
 
