@@ -39,5 +39,45 @@ WHERE f.film_id = (
 ) 
 LIMIT 1;
 
+-- Obtener una lista de todas las películas disponibles en el inventario y su ubicación:
+
+SELECT film.title, inventory.inventory_id
+FROM film
+INNER JOIN inventory ON film.film_id = inventory.film_film_id;
+
+-- Obtener una lista de los actores que han participado en una película en particular:
+
+SELECT actor.first_name, actor.last_name
+FROM actor
+INNER JOIN actor_film
+ ON actor.actor_id = film_actor.actor_actor_id
+INNER JOIN film ON actor_film.film_film_id = film.film_id
+WHERE film.title = 'Nombre de la película';
+
+-- Obtener una lista de los clientes que han alquilado una película en particular:
+
+SELECT customer.first_name, customer.last_name, rental.rental_date, rental.return_date
+FROM customer
+INNER JOIN rental ON customer.customer_id = rental.customer_customer_id
+INNER JOIN film ON inventory.film_film_id = film.film_id
+WHERE film.title = 'Nombre de la película';
+
+-- Obtener una lista de las películas más populares según la cantidad de veces que han sido alquiladas:
+
+SELECT film.title, COUNT(rental.rental_id) AS rental_count
+FROM film
+INNER JOIN inventory ON film.film_id = inventory.film_film_id
+INNER JOIN rental ON film.film_id = rental.film_film_id
+GROUP BY film.film_id
+ORDER BY rental_count DESC;
+
+-- PELICULAS DE MÁS DE 120 MINS
+
+SELECT title, inventory_id
+FROM film
+JOIN inventory ON film.film_id = inventory.film_film_id
+WHERE film.length > 120;
+
+
 
 
